@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url("http://fonts.googleapis.com/css?family=Carrois+Gothic");
+@import url("titleSection.css");
+@import url("logoSection.css");
+@import url("backgroundColors.css");
+@import url("mainSection.css");
+@import url("modalSection.css");
+@import url("featureSection.css");
+@import url("portfolioSection.css");
+@import url("aboutUsSection.css");
+@import url("progressBar.css");
+@import url("pricingSection.css");
+@import url("customTabs.css");
+@import url("teamMemberSection.css");
+@import url("latestNewsSection.css");
+@import url("contactSection.css");
+@import url("testimonialSection.css");
+
+
+body {
+
+    background: url(../images/background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #FF432E;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+}
+.btn-primary {
+    border-color: #FF432E;
+    background-color: #FF432E;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    border-color: #ea321e;
+    background-color: none !important;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #FF432E;
+    background-color: #FF432E;
+}
+.img-sample-height {
+  height:335px;
+}

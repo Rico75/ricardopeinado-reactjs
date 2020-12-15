@@ -4,6 +4,9 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/extra" />
+      <excludeFolder url="file://$MODULE_DIR$/public/test" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
